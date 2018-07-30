@@ -1,0 +1,32 @@
+{
+  "name": "ESP-EFTNeoPixel",
+  "keywords": "ESP8266, Framework, Sensors, Core",
+  "description": "ESP-EFTNeoPixel are added libraries on top of the ESP-EFTCore to interact with NeoPixel Led Strips.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/gabrielklein/ESP-EFTNeoPixel.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Gabriel Klein",
+      "email": "gabriel.klein@nuage.ch",
+      "url": "https://www.nuage.ch",
+      "maintainer": true
+    }
+  ],
+  "dependencies": {
+    "https://github.com/gabrielklein/ESP-EFTCore.git": "*", 
+    "NeoPixelBus": "*"
+  },
+  "exclude": [
+    "data",
+    "doc",
+    "lib",
+    "sample"
+  ],
+  "version": "0.002",
+  "frameworks": "arduino",
+  "platforms": "espressif8266"
+}
